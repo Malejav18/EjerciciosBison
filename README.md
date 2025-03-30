@@ -1,6 +1,4 @@
-# EjerciciosBison
-
-# Flex
+# Ejercicios en Bison
 Integrantes:
 
 - Eduardo Hincapie 
