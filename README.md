@@ -51,4 +51,4 @@ gcc fb3-1.tab.c fb3-1.lex.c fb3-1funcs.c
 ./a.out
 ```
 
-## Uso:
+## 💥 Uso:
