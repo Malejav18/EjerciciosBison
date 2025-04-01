@@ -42,33 +42,13 @@ Instalar bison
 brew install bison
 ```
 
-# ⚡Como usarlo
-
-Una vez descargado el archivo Lex, para ejecutarlo se utilizan los siguientes comandos:
+# ⚡ Como usarlo
 
 ```
-lex file.l 
-```
-
-Para compilar el archivo lex.yy.c en un ejecutable, se requiere un compilador de C. Generalmente se usa gcc (el compilador de GNU). Se compila el archivo generado (lex.yy.c) usando el comando:
-
-```
-gcc lex.yy.c -ll
-```
-
-Y se ejecuta el archivo generado (a.out) con el siguiente comando:
-
-```
+bison -d fb3-1.y
+flex -o fb3-1.lex.c fb3-1.l
+gcc fb3-1.tab.c fb3-1.lex.c fb3-1funcs.c
 ./a.out
 ```
-
-En caso de querer ejecutarlo a un archivo de texto en específico, se utiliza el comando:
-
-```
-./a.out < archivo.txt
-```
-
-Y finalizando con Ctrl+D (en Linux/Mac) o Ctrl+Z seguido de Enter (en Windows).
-
 
 ## Uso:
