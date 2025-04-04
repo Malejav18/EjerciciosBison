@@ -8,6 +8,9 @@
  * Declarations for a calculator fb3-1
  */
 
+int yyparse(void);
+int yylex(void);
+
 /* symbol table */
 struct symbol {		/* a variable name */
   char *name;
