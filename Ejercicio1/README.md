@@ -1,4 +1,4 @@
-## Ejecucion
+## ⚡ Ejecucion
 
 ```
 bison -d ej-1.y
