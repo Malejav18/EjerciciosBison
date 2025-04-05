@@ -1,6 +1,6 @@
 # Seccion 3-2
 
-## 👾 Ejecucion
+## ⚡ Ejecucion
 
 ```
 bison -d fb3-2.y
