@@ -17,6 +17,8 @@ t(b=2,b-a,a)
 ```
 
 Resultado de la ejecución:
+
+
 <img width="183" alt="image" src="https://github.com/user-attachments/assets/c7b04032-c95b-41b9-a00b-7b8fbd0b2540" />
 
 
